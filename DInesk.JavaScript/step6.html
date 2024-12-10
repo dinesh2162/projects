@@ -1,0 +1,32 @@
+<input class="one" id="input">
+<button class="one" onclick="add()">Add</button>
+<ul id="ul">
+    <li>
+        hello
+        <button class="one" onclick="one(event)">Delete</button>
+    </li>
+</ul>
+<style>
+    *{
+        background-color: black;
+        color: white;
+    }
+    .one{
+        background-color:gray;
+    }
+</style>
+<script>
+    var two=document.getElementById("ul")
+    var input=document.getElementById("input")
+    function add()
+    {
+        var name=document.createElement("li")
+        name.innerHTML=input.value+"<button onclick='one(event)'>Delete</button>"
+
+        two.append(name)
+    }
+    function one(event)
+    {
+        event.target.parentElement.remove()
+    }
+</script>

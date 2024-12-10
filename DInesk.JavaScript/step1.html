@@ -1,0 +1,36 @@
+<input id="one">
+<input id="two">
+<button id="four" onclick="mohan()">Add</button>
+<p id="three">Result</p>
+<body>
+    <style>
+        #three{
+            color: rgb(0, 255, 149);
+        }
+        #four{
+            color: rgb(255, 0, 0);
+        }
+        #one{
+              color: rgba(165, 42, 138, 0.74);
+        }
+        #two{
+              color: rgb(79, 42, 165);
+        }
+
+
+    </style>
+</body>
+<script>
+    var box1=document.getElementById("one")
+    var box2=document.getElementById("two")
+    var result=document.getElementById("three")
+    function mohan()
+    {
+        var box1value=Number(box1.value)
+        var box2value=Number(box2.value)
+        var total=box1value+box2value 
+        var total=box1value-box2value
+        var total=box1value*box1value
+        result.textContent=total
+    }
+    </script>

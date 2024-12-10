@@ -1,0 +1,84 @@
+<style>
+    .full{
+        background-color: gray;
+    }
+    .one{
+        background-color:orangered;
+        height: 200px;
+        width:100px;
+
+    }
+    #two{
+        width: 100%;
+        transition: 25s;
+    }
+    .three{
+        background-color:green ;
+        height: 200px;
+        width:100px;
+
+        
+    }
+    #four{
+        width:100%;
+        transition: 20s;
+        background-color: rgb(165, 42, 42);
+    }
+    #h1{
+        color: yellow;
+        background-color: rgba(98, 0, 128, 0.356);
+        border: 5px;
+        border-style: solid;
+        border-color: black;
+        margin-top:12px ;
+        text-align: center;
+        margin-left: 50%;
+    }
+    #h2{
+        color: black;
+        background-color: rgb(255, 217, 0);
+        border: 5px;
+        border-style: solid;
+        border-color:black;
+        width: 80px;
+        margin-top: 12px;
+        margin-left: 50%;
+    }
+    .h1{
+        height: 250px;
+        width:100%;
+        background-color:green;
+        margin-top: 10px;
+    }
+    .h2{
+        height: 250px;
+        width:100%;
+        background-color: orangered; 
+    }
+
+</style>
+<div class="full">
+<div class="h1">
+<div id="box" class="one"></div>
+<button onclick="change()" id="h1">ɱσʋҽ</button>
+</div>
+<hr>
+<div class="h2">
+<div id="box2" class="three"></div>
+<button onclick="mohan()" id="h2">🅶🅴🆃</button>
+</div>
+</div>
+
+<script>
+    var box=document.getElementById("box")
+    var box2=document.getElementById("box2")
+    function change()
+    {
+        box.setAttribute("id","two")
+        box.style.backgroundColor="blue"
+    }
+    function mohan()
+    {
+        box2.setAttribute("id","four")
+    }
+</script>

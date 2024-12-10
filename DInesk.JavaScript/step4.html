@@ -1,0 +1,25 @@
+<button onclick="ram()" style="background-color: white; color: black;" class="one">Mohan</button>
+<div id="result" style="color: red;"></div>
+<style>
+    *{
+        
+        background-color: black;
+        
+    }
+    .one{
+        margin-top: 100px;
+        margin-left: 50%;
+    }
+    #result{
+        margin-left: 50%;
+    }
+</style>
+<script>
+    var div=document.getElementById("result")
+    function ram()
+    {
+     var list=document.createElement("h2")
+     list.textContent="Matti"
+     div.append(list)
+    }
+</script>
