@@ -1,0 +1,51 @@
+
+body{
+    margin: 0;
+    display: flex;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVVtOS2ySUTeH91rqXBK9c6ruVS2mAFV4w1A&s");
+    justify-content: center;
+    font-family: cursive;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+   box-shadow: 0 3px 7px 10px black;
+   overflow:hidden;
+}
+
+
+
+.month{
+    margin: 0;
+   background-color: red;
+   color: white;
+   padding: 10px;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.day{
+  font-size: 20px;
+  color: gray;
+}
+
+.date{
+  font-size: 80px;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.year{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+    
+}
